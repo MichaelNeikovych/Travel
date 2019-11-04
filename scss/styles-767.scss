@@ -1,0 +1,143 @@
+@media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .container {
+        min-width: 300px;
+    }
+    .menu {
+        flex-direction: column;
+        margin-bottom: 10px;
+        & .logo {
+            width: 60px;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    .nav {
+        margin-left: 0;
+    }
+    .nav_box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav_items {
+        margin-bottom: 15px;
+    }
+    .nav_links{
+        font-size: 12px;
+    }
+    .main_header .header_description {
+        width: 710px;
+    }
+    .main_header .header_description .header_title {
+        text-align: center;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+    .main_header .header_description .header_text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .main_header .request {
+        width: 280px;
+        top: 120px;
+    }
+    .bg_overlay {
+        padding: 25px 0 390px;
+    }
+
+    .services {
+        padding: 50px 0 25px;
+    }
+    .services_title {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .services_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services_box_item {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .fa {
+        font-size: 120px;
+    }
+    .services_box_text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .story_wrap {
+        flex-direction: column;
+    }
+    .story_text {
+        margin-bottom: 15px;
+    }
+    .story_button {
+        margin-left: 0;
+    }
+
+    .pricing_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing_card {
+        margin-bottom: 10px;
+    }
+
+
+    .testimonial_gallery {
+        padding: 20px 0 20px;
+    }
+    .gallery_title, .testimonial_title {
+        font-size: 30px;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+    .testimonial_box {
+        width: 300px;
+        padding: 10px 60px 10px 15px;
+    }
+    .testimonial_text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .testimonial_signature {
+        font-size: 16px;
+    }
+    .testimonial_img {
+        right: 0px;
+        top: 50px;
+    }
+    .gallery_images {
+        margin-top: 10px;
+        width: 290px;
+        flex-wrap: wrap;
+    }
+    .gallery_img {
+        margin-bottom: 15px;
+    }
+    .more_img {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 20px 0 20px;
+    }
+    .footer_text {
+        font-size: 12px;
+    }
+    .footer_logo {
+        width: 100px;
+        height: 35px;
+    }
+}
